@@ -4,35 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/5c63eb9e96.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Animaciones</title>
+    <link rel="icon" type="image/jpg" href="./assets/images/Logo_Metallica.svg" />
+
+    <title>Tienda Digital</title>
 </head>
 
 <body>
     <div class="container">
+        <nav class="encabezado">
+            <div class="logo_encabezado">
+                <img class="logo" src="./assets/images/metal.png">
+                <img class="logo3" src="./assets/images/Logo3.png">
+                <h1>Tienda Digital</h1>
+            </div>
+            <img class="menu" src="./assets/images/menu.svg">
+            <ul>
+                <li>Metallica</li>
+                <li>Megadeth</li>
+                <li>Slayer</li>
+                <li>Antrax</li>
+                <li>AC-DC</li>
+                <li>Kiss</li>
+            </ul>
 
-        <head class="encabezado">
-            <h1>METALLICA</h1>
+        </nav>
+        <section class="filtros">
+            <span>Ordenar por</span>
+            <select class="opciones">
+                <option>Banda</option>
+                <option>Precio Mayor</option>
+                <option>Precio Menor</option>
+                <option>Antigüedad</option>
+            </select>
 
-        </head>
-        <div class="respmenu">
-            <input type="checkbox">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-times"></i>
-            <nav>
-                <ul>
-                    <li>Discografía</li>
-                    <li>Ropa</li>
-                    <li>Accesorios</li>
-                    <li>Niños</li>
-                    <li>En Vivo</li>
-                    <li>Integrantes</li>
-                </ul>
 
-            </nav>
-        </div>
+        </section>
+
         <main class="galeria">
             <section class="container_cards">
                 <article class="cards">
@@ -99,8 +111,7 @@
 
             </section>
             <div class="botones">
-                <button>
-                    <<< /button>
+                <button><<</button>
                         <button>1</button>
                         <button>2</button>
                         <button>3</button>
@@ -108,15 +119,18 @@
             </div>
 
         </main>
-        <aside class="lateral">
 
-        </aside>
         <footer>
-
+            <div>
+                <img class="foot" src="./assets/images/facebook.svg">
+                <img class="foot" src="./assets/images/instagram.svg">
+            </div>
+            <div class="prueba">
+                <img class="foot2" src="./assets/images/facebook - copia.svg">
+                <img class="foot2" src="./assets/images/instagram - copia.svg">
+            </div>
+            <span>Todos los Derechos Reservados</span>
         </footer>
-
     </div>
-
 </body>
-
 </html>
